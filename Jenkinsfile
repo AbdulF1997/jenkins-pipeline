@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('gettingenv') {
       steps {
-        sh 'echo $env.dev_ip'
+        sh 'echo $dev_ip'
       }
     }
 
